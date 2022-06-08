@@ -117,6 +117,8 @@ table {
     /* text-shadow: 0px 0px 13px rgba(0,0,0,0.8); */
     margin-left: var(--section-padding);
     margin-right: var(--section-padding);
+    font-family: Roboto-Light;
+    font-weight: 300;
 }
 
 p.about span {
@@ -126,6 +128,7 @@ p.about span {
 
 .section {
     font-family: Roboto-Light;
+    font-weight: 300;
     margin-left: var(--section-padding);
     margin-right: var(--section-padding);
 }
