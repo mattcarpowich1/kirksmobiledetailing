@@ -1,0 +1,200 @@
+:root {
+    --black: #222;
+    --section-padding: 32px;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./public/Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(./public/Roboto/Roboto-Light.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto-Black;
+    src: url(./public/Roboto/Roboto-Black.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(./public/Roboto/Roboto-Black.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Roboto-Italic;
+    src: url(./public/Roboto/Roboto-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto-Light-Italic;
+    src: url(./public/Roboto/Roboto-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: Roboto;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+    line-height: 1.15em;
+}
+
+.section-title {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.review p {
+    margin: 8px 0px;
+}
+
+.packages p.about {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    max-width: 400px;
+    min-width: 300px;
+    line-height: 1.4em;
+    /* text-shadow: 0px 0px 13px rgba(0,0,0,0.8); */
+    margin-left: var(--section-padding);
+    margin-right: var(--section-padding);
+}
+
+p.about span {
+    font-family: Roboto-Light-Italic;
+    transform: translateY(-4px);
+}
+
+.section {
+    font-family: Roboto-Light;
+    margin-left: var(--section-padding);
+    margin-right: var(--section-padding);
+}
+
+div.review {
+    padding: 24px;
+    color: var(--black);
+    background: #ccc;
+    max-width: 400px;
+    margin-bottom: 80px;
+    margin-left: var(--section-padding);
+    margin-right: var(--section-padding);
+    font-size: 18px;
+}
+
+.stars {
+    margin-bottom: 20px;
+}
+
+.stars img {
+    height: 20px;
+    width: auto;
+}
+
+span.reviewer-name {
+    font-family: Roboto-Bold;
+}
+
+span.reviewer-name img {
+    height: 24px;
+    width: auto;
+    transform: translateX(4px);
+}
+
+div.packages {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 84px 0px;
+    background-color: none;
+    max-width: none !important;
+    margin: 0 !important;
+    background-color: #222222;
+    padding-bottom: 8px;
+}
+
+div.car-img-outer {
+    /* width: 100vw; */
+    max-width: 600px;
+    height: calc(45vw);
+    max-height: 220px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 84px;
+    margin-bottom: 84px;
+}
+
+div.car-img-outer img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    color: white;
+    font-size: 16px;
+}
