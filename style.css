@@ -64,7 +64,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font-family: Roboto;
+	font-family: 'Roboto';
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -92,7 +92,7 @@ table {
 }
 
 * {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     line-height: 1.15em;
 }
@@ -117,17 +117,19 @@ table {
     /* text-shadow: 0px 0px 13px rgba(0,0,0,0.8); */
     margin-left: var(--section-padding);
     margin-right: var(--section-padding);
-    font-family: Roboto-Light;
+    font-family: 'Roboto';
     font-weight: 300;
 }
 
 p.about span {
-    font-family: Roboto-Light-Italic;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
     transform: translateY(-4px);
 }
 
 .section {
-    font-family: Roboto-Light;
+    font-family: 'Roboto';
     font-weight: 300;
     margin-left: var(--section-padding);
     margin-right: var(--section-padding);
@@ -154,7 +156,8 @@ div.review {
 }
 
 span.reviewer-name {
-    font-family: Roboto-Bold;
+    font-family: 'Roboto';
+    font-weight: 700;
 }
 
 span.reviewer-name img {
@@ -216,7 +219,8 @@ div.car-img-outer img {
 }
 
 .bold {
-    font-family: Roboto-Bold;
+    font-family: 'Roboto';
+    font-weight: 700;
 }
 
 .services-title {
@@ -241,12 +245,14 @@ div.car-img-outer img {
     flex-direction: row;
     justify-content: space-between;
     line-height: 1.3em;
-    font-family: Roboto-Light;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     margin-bottom: 16px;
 }
 
 .price {
-    font-family: Roboto-Bold;
+    font-family: 'Roboto';
+    font-weight: 700;
     margin-left: 20px;
     line-height: 1.3em;
 }
@@ -258,7 +264,8 @@ div.car-img-outer img {
 }
 
 .includes p {
-    font-family: Roboto-Light;
+    font-family: 'Roboto';
+    font-weight: 100;
     line-height: 1.5em;
     margin-bottom: 16px;
     font-size: .9em;
@@ -272,7 +279,9 @@ span.bold {
 
 .includes p.service-disclaimer {
     margin-top: 8px;
-    font-family: Roboto-Light-Italic;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-style: italic;
 }
 
 
