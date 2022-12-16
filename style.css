@@ -226,7 +226,7 @@ div.car-img-outer img {
 .services-title {
     color: white;
     font-size: 1.5em;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
     text-transform: uppercase;
 }
 
@@ -282,6 +282,13 @@ span.bold {
     font-family: 'Roboto';
     font-weight: 100;
     font-style: italic;
+}
+
+@media screen and (min-width: 500px) {
+    .pricing,
+    .includes p {
+        font-size: 1em;
+    }
 }
 
 
