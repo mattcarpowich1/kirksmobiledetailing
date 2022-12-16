@@ -289,6 +289,10 @@ span.bold {
     .includes p {
         font-size: 1em;
     }
+
+    .pricing {
+        width: 300px;
+    }
 }
 
 
