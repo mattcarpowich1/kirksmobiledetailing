@@ -213,9 +213,20 @@ div.car-img-outer img {
 
 .service {
     padding: 24px;
+    padding-top: 32px;
     background: #333;
     margin-bottom: 64px;
     width: 100%;
+}
+
+.regular {
+    font-family: 'Roboto';
+    font-weight: 400 !important;
+}
+
+.light {
+    font-family: 'Roboto';
+    font-weight: 300 !important;
 }
 
 .bold {
@@ -258,7 +269,7 @@ div.car-img-outer img {
 }
 
 .includes h6 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-bottom: 24px;
     text-transform: uppercase;
 }
