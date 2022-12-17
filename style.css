@@ -184,9 +184,6 @@ div.packages {
 div.car-img-outer {
     /* width: 100vw; */
     max-width: 600px;
-    height: calc(45vw);
-    max-height: 220px;
-    min-height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
