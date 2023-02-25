@@ -303,6 +303,16 @@ span.bold {
     }
 }
 
+#main-bg {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5970982142857143) 0%, rgba(0,0,0,0.6839329481792717) 100%), url('public/images/bmw.jpg');
+}
+
+@media screen and (min-width: 580px) {
+    #main-bg {
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.5970982142857143) 0%, rgba(0,0,0,0.6839329481792717) 100%), url('public/images/porsche.jpg');
+    }
+}
+
 
 footer {
     color: white;
